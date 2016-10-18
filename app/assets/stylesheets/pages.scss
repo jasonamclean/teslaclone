@@ -1,0 +1,108 @@
+@font-face {
+	font-family: "Raleway_Regular";
+	src: url('assets/Raleway_Regular');
+}
+
+
+body {
+	background: url("tesla_horizon.jpg") no-repeat center center fixed;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	color: white;
+}
+
+header ul li {
+	display: inline-block;
+	padding: 8px;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+}
+
+header ul li a:link {
+	text-decoration: none;
+}
+
+header ul li a:visited {
+	color: white;
+}
+
+h1 {
+	color: white;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+}
+
+h3 {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 17px;
+}
+
+h3 a:visited {
+	color: white;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+footer ul li {
+	display: inline;
+	font-size: 14px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+}
+
+footer ul li:after { content: " \00b7"; }
+footer ul li:last-child:after {	content: none; }
+
+footer ul li a:link {
+	text-decoration: none;
+}
+
+footer ul li a:visited {
+	color: white;
+}
+
+.button {
+	width: 175px;
+	height: 40px;
+	font-size: 13px;
+	border: none;
+	background: rgba(0,0,0,0.5);
+	color: white;
+}
+
+.button:hover {
+	border: 1px solid white;
+}
+
+#nav_top_left {
+	margin-left: 80px;
+}
+
+#nav_top_right {
+	position: absolute;
+	top: 0px;
+	right: 120px;
+}
+
+#nav_top_right a:link {
+	font-size: 12px;
+}
+
+#middle {
+	text-align: center;
+	margin-top: 80px;
+}
